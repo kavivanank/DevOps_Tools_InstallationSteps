@@ -33,3 +33,9 @@ sudo startTomcat
 chown -R ubuntu /opt/apache-tomcat-9.0.65
 chmod -R 757 /opt/apache-tomcat-9.0.65
 
+## Deploy a maven build application and make it available on internet
+## Copy the .war file to webapps directory for deploying the application
+
+sudo cp target/<application-name>.war /opt/apache-tomcat-9.0.65/webapps/
+(or)
+sudo cp target/*.war /opt/apache-tomcat-9.0.65/webapps/
