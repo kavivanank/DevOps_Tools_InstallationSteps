@@ -4,4 +4,4 @@ NOTE: JDK required before installation
 
 cd /opt
 sudo wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.65/bin/apache-tomcat-9.0.65.tar.gz
-(For different versions of Apache, got this URL --> https://archive.apache.org/dist/tomcat/ and select the required version)
+(For different versions of Apache, go to this URL --> https://archive.apache.org/dist/tomcat/ and select the required version)
