@@ -2,15 +2,19 @@
 
 **Updating system packages & Installing JDK and Maven**
 
-```sudo apt-get update -y```
+```
+sudo apt-get update -y
 
-```sudo apt install openjdk-11-jre -y```
+sudo apt install openjdk-11-jre -y
 
-```sudo apt-get install maven -y```
+sudo apt-get install maven -y
+```
 
 **Verify the java installation**
 
-```java -version```
+```
+java -version
+```
 
 **Most commonly used maven commands**
 
@@ -32,4 +36,6 @@
 
 **Deploy a maven build application and make it available on internet**
 
-```java -jar target/<application-name>.jar```
+```
+java -jar target/<application-name>.jar
+```
